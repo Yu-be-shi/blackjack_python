@@ -1,4 +1,5 @@
-﻿import random
+import random
+import time
 #定数
 BLACK_JACK = 21
 Card_Number = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
@@ -171,6 +172,7 @@ def Game(me,de):
 
         print("Player Point: "+str(me.sum))
         print("Dealer Point: "+str(de.sum))
+        time.sleep(1)
         print()
 
         #judge

@@ -264,5 +264,5 @@ while(True):
         continue
     _bet = int((result * place_bet)/10)
     me.bet += _bet
-    print("You got {0}".format(_bet))
+    print("You got {0} bet".format(_bet))
     Print_Divide(3)

@@ -206,7 +206,7 @@ def Game(me,de):
             print()
         print("Result: You win!")
         return int(BLACK_JACK - abs(BLACK_JACK - me.sum))
-    elif me.sum < de.sum:
+    elif me.sum <= de.sum:
         if de.sum == BLACK_JACK:
             print("★BLACK_JACK★")
             print()
